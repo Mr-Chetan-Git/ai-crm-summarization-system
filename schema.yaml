@@ -1,0 +1,39 @@
+Pull_Data_From_DB_Excel: true   # true/false, case-insensitive
+
+excel_filepath_to_load_data:
+  path: "C:/Users/cheta/OneDrive/Desktop/clients.xlsx"
+
+export:
+  enabled: true
+  output_path: "C:/Users/cheta/OneDrive/Desktop/File/csv.xlsx"
+
+# Database table schema
+table:
+  name: crm_customer_info
+  columns:
+    - name: date
+      type: datetime
+    - name: name
+      type: text
+    - name: email
+      type: text
+    - name: mobile
+      type: text
+    - name: designation
+      type: text
+    - name: state
+      type: text
+    - name: update_status_notes
+      type: text
+    - name: confirm_register
+      type: text
+    - name: youtube_video
+      type: text
+    - name: comments
+      type: text
+    - name: gap_analysis
+      type: text
+    - name: company
+      type: text
+    - name: summary
+      type: text
